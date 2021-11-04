@@ -1,0 +1,524 @@
+ul li a, .btn{
+   
+   font-size: 16px;
+   font-weight: 600;
+   color: #5a6e79;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.btn {
+    color:#ffc178;
+}
+.btn:hover{
+    color:white;
+    background-color: #ffc178;
+    border-color: #ffc178;
+  
+}
+ul .hoverr a:hover{
+    color: #ffc178;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  
+}
+
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffc178;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav{
+background-color: #fff9f3;
+}
+
+#headersection{
+    background-color:#fff9f3;
+    height: 550px;
+    
+}
+
+.leftimage{
+    margin-top: -110px;
+    margin-left: 80px;
+}
+.rightimage{
+       margin-top: -200px;
+       margin-right: 100px;
+    
+}
+.heading{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffc178;
+  
+}
+
+.subtitle{
+
+   font-family: 'Work Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: #5a6e79;
+
+
+}
+
+.detail {
+  margin-top: -430px;
+  margin-left: 130px;
+  
+}
+.detail h2{
+   width: 50%;
+   margin-left: -15px;
+}
+
+.detail p{
+   width: 40%;
+}
+
+.detail .btn{
+   color: white;
+   background-color: #ffc178;
+   border-radius: 30px;
+   
+
+} 
+
+.detail .btn:hover{
+  color: #ffc178;
+  background-color: white;
+  border-color: #ffc178;
+}
+
+#department .h1{
+
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+    margin-top: -40px;
+
+}
+#department .p{
+
+    font-family: 'Work Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: #5a6e79;
+    
+}
+
+
+.pic1{
+  background-color: #f9703a;
+  width: 350px;
+  height: 430px;
+     border-radius: 10px;
+}
+
+.pic2{
+  background-color: #80be41;
+  width: 350px;
+  height: 430px;
+  border-radius: 10px;
+}
+
+.pic3{
+  background-color:#ffb258;
+  width: 350px;
+  height: 430px;
+  border-radius: 10px;
+}
+
+.pic3 img{
+    width: 300px;
+
+}
+
+#department .effect{
+  
+    margin-bottom: 10px;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24);  
+    transition: all 0.5s ease;
+    cursor: pointer;
+    position:relative;
+
+}
+#department .effect:hover{
+    
+    transform: scale(1.1);
+    opacity: 70%;
+}
+
+.video-fluid {
+  width: 300px;
+  height: 400px;
+ 
+}
+#limit .h1{
+  font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+    margin-top: -40px;
+
+}
+
+#limit .p{
+
+    font-family: 'Work Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: #5a6e79;
+    
+}
+#arounduniversity .card8s{
+  margin-top: -600px;
+
+
+}
+
+
+
+#arounduniversity .card88s{
+   margin-top: 50px;
+
+}
+#arounduniversity .h1{
+
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+    margin-top: -40px;
+
+}
+
+#arounduniversity img{
+  margin-top: -100px;
+}
+
+
+ .card{
+  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+     user-select: none;
+    z-index: 10;
+    overflow: hidden;
+    
+   
+
+
+}
+
+.card:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card:hover .backgroundEffect {
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: #ffc178;
+    animation: popBackground 0.3s ease-in
+}
+
+@keyframes popBackground {
+    0% {
+        height: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%
+    }
+
+    50% {
+        height: 80px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%
+    }
+
+    75% {
+        height: 160px;
+        border-top-left-radius: 85%;
+        border-top-right-radius: 85%
+    }
+
+    100% {
+        height: 320px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+}
+
+
+.card .pic img {
+  
+    width: 100%;
+    height: 370px;
+    object-fit: contain;
+}
+
+
+
+.card:hover .text-muted {
+    color: #fff !important
+}
+
+.card .content {
+    padding-left: 15px;
+    margin-top: -70px;
+   
+}
+
+
+.card .content .h-1{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+} 
+
+.card .content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color:#5a6e79;
+    border-radius: 25px;
+    font-size: 12px;
+    border: none
+}
+
+.card:hover .content .btn {
+    background: #fff;
+    color: #ffc178;
+    box-shadow: #0000001a 0px 3px 5px
+}
+
+.card .content .btn .fas {
+    font-size: 10px;
+    padding-left: 5px
+}
+
+
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #4a5562;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+#footer .footer-top {
+  background: #252c3a;
+  padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Work Sans", sans-serif;
+  color :#969595;
+}
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .footer-top .social-links a:hover {
+  background: #0089fd;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+#footer .footer-top .footer-links ul a {
+  color: #969595;
+  transition: 0.3s;
+   font-family: "Work Sans", sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+  display: inline-block;
+  line-height: 1;
+}
+#footer .footer-top .footer-links ul a:hover {
+  color: white;
+}
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+}
+#footer .footer-top .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+}
+#footer .footer-top .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 2px 20px;
+  background: #ffc178;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+#footer .footer-top .footer-newsletter form input[type=submit]:hover {
+  background: #f9703a;
+}
+#footer .copyright {
+  text-align: center;
+  padding: 10px;
+
+}
+
+.coppy{
+      background-color: #1d232e;
+      color: #fff;
+}
+
+#footar
+{
+  margin-top: 100px;
+}
+
+
+@media screen and (max-width: 736px){
+
+
+       .detail {
+        margin-top: 270px;
+        margin-left:40px;
+  
+       }
+       .detail h2{
+       font-size: 25px;
+       width: 100%;
+       margin-left: -15px;
+      }
+         .detail p{
+       font-size: 16px;
+       width: 100%;
+       padding-top:20px ;
+      }
+
+      #department .h1{
+
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+    margin-top: -30px;
+
+    }
+
+    #department .p{
+
+    font-family: 'Work Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: #5a6e79;
+   width: 90%;
+   text-align: center;
+   margin:auto;
+    
+}
+
+#department .effect{
+  margin-left: 20px;
+  margin-bottom: 35px;
+}
+
+#limit{
+  margin-bottom: 600PX;
+}
+#limit .h1{
+  font-size: 35px;
+    text-align: center;
+
+}
+
+#limit .row{
+
+  margin: auto;
+}
+
+
+}
+
+
+
